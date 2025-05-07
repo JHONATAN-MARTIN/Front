@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script>
+            function msg() {
+                document.write("Aula de função<br>");
+            }
+            msg();
+            msg();
+
+            function media(a, b) {
+                document.write("A média é: " + (a + b) / 2 + "<br>");
+            }
+
+            //Função Anônima
+            const media2 = function (a, b) {
+                return (a + b) / 2;
+            }
+
+            
+            document.write(media2(10, 20) + "<br>");
+            document.write(media2(20, 30) + "<br>");
+            document.write(media2(30, 40) + "<br>");
+            
+            //Arrow Function é a mais usada atualmente
+            const media3 = (a, b) => (a + b) / 2;
+
+            document.write(media3(100, 200) + "<br>");
+
+            //Função Arrow que retonar o meu nome
+
+            const nome = () => "Jhonatan";
+            document.write("<br>"+nome());
+
+        </script>
+    </body>
+
+</html>
