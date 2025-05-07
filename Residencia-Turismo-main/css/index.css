@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --header-background: #B8BFA1;
+    --main-color: #7E816B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.subtitulo {
+    font-size: 15px;
+    opacity: 0.6;
+}
+.navbar {
+    height: 150px;
+    background-color: var(--header-background);
+}
+
+.navbar .container-fluid .title {
+    color: var(--main-color);
+}
+
+.navbar .container-fluid .title:hover {
+    opacity: 0.8;
+    
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    font-size: 17px;
+    color: var(--main-color);
+}
+
+.b2{
+    background-color: #B8BFA1;
+    padding: 10px 20px;
+    color: #8b8b6b;
+}
+.caixa{
+    box-sizing: center;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.faixa{
+    background-color: #E4D0AC;
+    color: #7E816B;
+}
+
+.faixa2{
+    background-color:#E4D0AC;
+    height: 110px; 
+    color: #7E816B;
+   
+}
+
+.text-lado{
+    margin-top: 35px;
+    text-align: center;
+}
+
+
+.container {
+    position: relative;
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .imagem {
+    width: 60%;
+    display: block;
+    float: left;
+  }
+  
+
+  .caixadeteste {
+    margin-left: -25px;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    min-height: 300px;
+    background: #f5f3e9;
+    padding: 40px 40px 40px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 16px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .caixadeteste h3 {
+    color: #8b8b6b;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .caixadeteste hr {
+    border: none;
+    border-top: 2px solid #e6e2c7;
+    margin: 16px 0;
+  }
+  
+  .caixadeteste p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .btn-custom{
+    padding: 10px 40px;
+    margin-top: 18px;
+    background-color: #B8BFA1;
+    border: none;
+
+  }
+  .box-left{
+    position: relative;
+  }
+
+  .caixadeteste2  {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    min-height: 300px;
+    background: #f5f3e9;
+    padding: 40px 40px 40px 40px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 16px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .caixadeteste2 h3 {
+    color: #8b8b6b;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+  
+  .caixadeteste2 hr {
+    border: none;
+    border-top: 2px solid #e6e2c7;
+    margin: 16px 0;
+  }
+  
+  .caixadeteste2 p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .f2{
+    margin-bottom: 0;
+  }
+  
+  
